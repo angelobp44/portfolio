@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: teal
+  background-color: black;
 }
 header {
   background-image: url(http://ww2.hdnux.com/photos/31/22/51/6629969/9/rawImage.jpg);
@@ -98,21 +98,126 @@ nav li a:hover {
     background-color: #111;
 
 }
-
+.group h2 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-family: monospace;
+  background-color: teal;
+}
 .project {
   float: left;
   width: 31%;
-  border: 2px solid blue;
+  border: 5px solid white;
   margin-right: 2%;
+  margin-bottom: 2%;
 
 }
 .project a img {
   width: 100%;
 }
+.project h3 {
+  text-align: center;
+  font-style: oblique;
+  font-size: 25px;
+  text-decoration: inherit;
+  color: teal;
+  background-color: white;
+}
+.project p {
+  color: white;
+  padding-left: 5px;
+  font-family: fantasy;
+  font-size: 25px;
 
-
+}
 .group:after {
   content: "";
   display: table;
   clear: both;
+}
+
+* {box-sizing:border-box}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+.skillz {
+  text-align: center;
+  font-size: 45px;
+  font-family: monospace;
+
+}
+.skillz h2 {
+  color: white;
+  background-color: teal;
+}
+.skillz p {
+  color: white;
+
+}
+.skillz p:hover {
+  color: teal;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.ruby {width: 75%; background-color: #4CAF50;} /* Green */
+.html {width: 50%; background-color: #2196F3;} /* Blue */
+.css {width: 50%; background-color: #f44336;} /* Red */
+.github {width: 60%; background-color: #808080;} /* Dark Grey */
+
+
+.footy {
+  background-color: teal;
+}
+.foot {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+
+
+}
+.foot p {
+  font-size: 25px;
+
+
+}
+.foot h3:hover {
+  color: black;
+}
+.logos {
+  text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 25px;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
